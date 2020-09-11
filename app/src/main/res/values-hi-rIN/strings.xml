@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">सुनहरा अनुपात</string>
+    <string name="title_home">मुख पृष्ठ</string>
+    <string name="title_dashboard">अनुप्रयोग</string>
+    <string name="title_notifications">मूल्यांकन</string>
+    <string name="editText_username">उपयोगकर्ता नाम</string>
+    <string name="editText_name">नाम</string>
+    <string name="editText_email">ईमेल</string>
+    <string name="editText_phone">फ़ोन</string>
+    <string name="editText_password">कुंजिका</string>
+    <string name="button_login">लॉग इन करें</string>
+    <string name="button_signup">साइन अप करें</string>
+    <string name="button_register">रजिस्टर करें</string>
+    <string name="choice1" translatable="false">Choice1</string>
+    <string name="choice2" translatable="false">Choice2</string>
+    <string name="choice3" translatable="false">Choice3</string>
+    <string name="multiline_String" translatable="false">Multi Lines</string>
+    <string name="result1">बकाया! तुम सच में गोल्डन अनुपात में एक विशेषज्ञ!</string>
+    <string name="result2">अति उत्कृष्ट! तुमने अपना सर्वश्रेस्ठ किया!</string>
+    <string name="result3">अच्छा! अगली बार किस्मत तुम्हारा साथ देगी!</string>
+    <string name="result4">अगली बार अधिक अंक स्कोर करने का प्रयास करें!</string>
+    <string name="result5">आपका प्रयास इस विषय के लिए पर्याप्त नहीं है!</string>
+    <string name="lastScore">पिछले स्कोर : </string>
+    <string name="best1">लीड स्कोर 1 : </string>
+    <string name="best2">लीड स्कोर 2 : </string>
+    <string name="best3">लीड स्कोर 3 : </string>
+    <string name="retry_quiz">पुन: प्रयास करें</string>
+    <string name="exit">बाहर जाएं</string>
+    <string name="home_heading1">सुनहरा अनुपात</string>
+    <string name="home_heading2">इसके पीछे आइडिया है</string>
+    <string name="home_heading3">सुंदरता</string>
+    <string name="home_heading4">उदाहरण</string>
+    <string name="home_heading5">वास्तविक मूल्य</string>
+    <string name="home_multiline1">स्वर्ण अनुपात (प्रतीक यूनानी अक्षर है \"phi\" ) एक विशेष संख्या है जो लगभग 1.618 के बराबर है।
+       यह ज्यामिति, कला, वास्तुकला और अन्य क्षेत्रों में कई बार दिखाई देता है।</string>
+    <string name="home_multiline2">जब हम एक रेखा को दो भागों में विभाजित करते हैं तो हम सुनहरा अनुपात पाते हैं:
+छोटे भाग द्वारा विभाजित लंबा भाग भी पूरे भाग के बराबर होता है जो लंबे भाग से विभाजित होता है।</string>
+    <string name="home_multiline3">यह आयत गोल्डन अनुपात का उपयोग करके बनाई गई है, एक पेंटिंग के लिए एक विशिष्ट फ्रेम की तरह दिखता है, यह नहीं है?
+         कुछ कलाकारों और वास्तुकारों का मानना है कि गोल्डन अनुपात सबसे आकर्षक और सुंदर आकृति बनाता है।</string>
+    <string name="home_multiline4">कई इमारतों और कलाकृति में स्वर्ण अनुपात है, जैसे कि ग्रीस में पार्थेनन,
+        लेकिन यह वास्तव में ज्ञात नहीं है कि क्या यह उस तरह से डिज़ाइन किया गया था</string>
+    <string name="home_multiline5">स्वर्ण अनुपात समान है: 1.61803398874989484820 ... (आदि) अंक केवल पैटर्न के साथ चलते रहते हैं।
+         वास्तव में गोल्डन अनुपात एक अपरिमेय संख्या के रूप में जाना जाता है, और मैं आपको इसके बारे में बाद में बताऊंगा</string>
+
+    <string name="next">आगे</string>
+    <string name="Exit">बाहर जाएं</string>
+    <string name="save">भाषा बदलें</string>
+    <string name="language_text">एप्लिकेशन भाषा चुनें::</string>
+    <string name="english">English</string>
+    <string name="tamil">தமிழ்</string>
+    <string name="hindi">हिन्दी</string>
+    <string name="setttings">समायोजन</string>
+    <string name="correct">सही बात!</string>
+    <string name="worng">गलत!</string>
+    <string name="validate_details">मान्य विवरण दर्ज करें और पुनः प्रयास करें!</string>
+    <string name="validate_email">अवैध ईमेल</string>
+    <string name="validate_password">अवैध पासवर्ड</string>
+    <string name="application_heading">गोल्डन अनुपात के अनुप्रयोग</string>
+    <string name="application_context">The Golden Ratio has been said to be the most appealing ratio, and is therefore used frequently.
+    It can be observed in nature, shells, faces, hurricanes, human bodies, animal bodies, DNA and so on.
+    It is applied in art and architecture, making logos, music,etc..</string>
+
+    <string-array name="questions">
+        <item>क्या ग्रीक प्रतीक स्वर्णिम अनुपात का प्रतिनिधित्व करता है?</item>
+        <item>इस आकृति का नाम क्या है?</item>
+        <item>स्वर्णिम अनुपात का मूल सूत्र क्या है?</item>
+        <item>किस गणित विषय में गोल्डन अनुपात अक्सर दिखाई देता है?</item>
+        <item>गोल्डन अनुपात का प्रतिनिधित्व करने वाली संख्या क्या है?</item>
+        <item>यदि बाहरी पेंटागन के किनारे (नीचे पेंटाग्राम में हरे रंग में चित्रित) 2 इकाई लंबे हैं,
+         आंतरिक पेंटागन (बैंगनी) के प्रत्येक पक्ष की लंबाई क्या है?</item>
+        <item>इस स्वर्णिम अनुपात का नाम किसने रखा?</item>
+        <item>गोल्डन अनुपात के आवेदन में से कुछ क्या हैं?</item>
+        <item>स्वर्ण अनुपात एक ________ है।</item>
+        <item>स्वर्ण अनुपात को _________ भी कहा जाता है।</item>
+    </string-array>
+
+
+
+
+    <string-array name="Choices1">
+        <item>Phi</item>
+        <item>वर्ग अनुपात</item>
+        <item>(a+b)/b</item>
+        <item>गणना</item>
+        <item>0.618</item>
+        <item>0.382</item>
+        <item>रोमनों</item>
+        <item>नृत्य, संगीत और लेखन</item>
+        <item>परिमेय संख्या</item>
+        <item>Silver Ratio</item>
+    </string-array>
+
+    <string-array name="Choices2">
+        <item>Pi</item>
+        <item>आयत अनुपात</item>
+        <item>(a-b)/a</item>
+        <item>त्रिकोणमिति</item>
+        <item>2.624</item>
+        <item>0.764</item>
+        <item>यूनानियों</item>
+        <item>अंग्रेजी और राजनीतिक न्याय</item>
+        <item>अपरिमेय संख्या</item>
+        <item>अनुपातों का राजा</item>
+    </string-array>
+
+    <string-array name="Choices3">
+        <item>Psi</item>
+        <item>नियमित अनुपात</item>
+        <item>(a+b)/a</item>
+        <item>ज्यामिति</item>
+        <item>1.618</item>
+        <item>1.618</item>
+        <item>फारसियों</item>
+        <item>वास्तुकला, संगीत और डिजाइन</item>
+        <item>सही वर्ग संख्या</item>
+        <item>गोल्डन मीन या गोल्डन सेक्शन</item>
+    </string-array>
+
+    <string-array name="Answers">
+        <item>Phi</item>
+        <item>आयत अनुपात</item>
+        <item>(a+b)/a</item>
+        <item>ज्यामिति</item>
+        <item>1.618</item>
+        <item>0.764</item>
+        <item>यूनानियों</item>
+        <item>वास्तुकला, संगीत और डिजाइन</item>
+        <item>अपरिमेय संख्या</item>
+        <item>गोल्डन मीन या गोल्डन सेक्शन</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">Golden Ratio</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Applications</string>
+    <string name="title_notifications">Evaluation</string>
+    <string name="editText_username">Username</string>
+    <string name="editText_name">Name</string>
+    <string name="editText_email">Email</string>
+    <string name="editText_phone">Phone</string>
+    <string name="editText_password">Password</string>
+    <string name="button_login">Login</string>
+    <string name="button_signup">Sign Up</string>
+    <string name="button_register">Register</string>
+    <string name="choice1" translatable="false">Choice1</string>
+    <string name="choice2" translatable="false">Choice2</string>
+    <string name="choice3" translatable="false">Choice3</string>
+    <string name="multiline_String" translatable="false">Multi Lines</string>
+    <string name="result1">Outstanding! You really an expert in Golden Ratio!</string>
+    <string name="result2">Excellent! You did your Best!</string>
+    <string name="result3">Good! Better luck next time!</string>
+    <string name="result4">Try to Score more marks next time!</string>
+    <string name="result5">Your effort is not enough for this subject!</string>
+    <string name="lastScore">LAST SCORE : </string>
+    <string name="best1">BEST1 : </string>
+    <string name="best2">BEST2 : </string>
+    <string name="best3">BEST3 : </string>
+    <string name="retry_quiz">Retry Quiz</string>
+    <string name="exit">Exit</string>
+    <string name="home_heading1">Golden Ratio</string>
+    <string name="home_heading2">The Idea Behind It</string>
+    <string name="home_heading3">Beauty</string>
+    <string name="home_heading4">Example</string>
+    <string name="home_heading5">The Actual Value</string>
+    <string name="home_multiline1">The golden ratio (symbol is the Greek letter \"phi\" shown at top) is a special number approximately equal to 1.618.
+        It appears many times in geometry, art, architecture and other areas.</string>
+    <string name="home_multiline2">We find the golden ratio when we divide a line into two parts so that:
+the long part divided by the short part is also equal to the whole length divided by the long part.</string>
+    <string name="home_multiline3">This rectangle has been made using the Golden Ratio, Looks like a typical frame for a painting, doesn\'t it?
+        Some artists and architects believe the Golden Ratio makes the most pleasing and beautiful shape.</string>
+    <string name="home_multiline4">Many buildings and artworks have the Golden Ratio in them, such as the Parthenon in Greece,
+        but it is not really known if it was designed that way.</string>
+    <string name="home_multiline5">The Golden Ratio is equal to:  1.61803398874989484820... (etc.) The digits just keep on going, with no pattern. In fact the Golden Ratio is known to be an Irrational Number, and I will tell you more about it later.</string>
+    <string name="next">Next</string>
+    <string name="Exit">Exit</string>
+    <string name="save">Save</string>
+    <string name="language_text">Choose app Language:</string>
+    <string name="english">English</string>
+    <string name="tamil">தமிழ்</string>
+    <string name="hindi">हिन्दी</string>
+    <string name="setttings">Settings</string>
+    <string name="correct">Correct!</string>
+    <string name="worng">Wrong!</string>
+    <string name="validate_details">Enter valid details and try again!</string>
+    <string name="validate_email">Invalid Email</string>
+    <string name="validate_password">Invalid Password</string>
+    <string name="application_heading">Applications of Golden Ratio</string>
+    <string name="application_context">The Golden Ratio has been said to be the most appealing ratio, and is therefore used frequently.
+    It can be observed in nature, shells, faces, hurricanes, human bodies, animal bodies, DNA and so on.
+    It is applied in art and architecture, making logos, music,etc..</string>
+
+    <string-array name="questions">
+        <item>What greek symbol represents the Golden Ratio?</item>
+        <item>What is the name of this figure?</item>
+        <item>What is the basic formula for The Golden Ratio?</item>
+        <item>In what math subject does The Golden ratio appear frequently?</item>
+        <item>What is the number that represents The Golden Ratio?</item>
+        <item>If the sides of the outer pentagon (pictured in green in the pentagram below) are 2 units long,
+        what is the length of each side of the inner pentagon (purple)?</item>
+        <item>Who named this Golden Ratio?</item>
+        <item>What are some of the application of The Golden Ratio?</item>
+        <item>Golden ratio is a/an ________ .</item>
+        <item>Golden ratio is also called as _________ .</item>
+    </string-array>
+
+
+
+
+    <string-array name="Choices1">
+        <item>Phi</item>
+        <item>Square Ratio</item>
+        <item>(a+b)/b</item>
+        <item>Calculus</item>
+        <item>0.618</item>
+        <item>0.382</item>
+        <item>Romans</item>
+        <item>Dance, Music and Writing</item>
+        <item>Rational number</item>
+        <item>Silver Ratio</item>
+    </string-array>
+
+    <string-array name="Choices2">
+        <item>Pi</item>
+        <item>Rectangle Ratio</item>
+        <item>(a-b)/a</item>
+        <item>Trigonometry</item>
+        <item>2.624</item>
+        <item>0.764</item>
+        <item>Greeks</item>
+        <item>English and Political Justice</item>
+        <item>Irrational number</item>
+        <item>King of ratios</item>
+    </string-array>
+
+    <string-array name="Choices3">
+        <item>Psi</item>
+        <item>Regular Ratio</item>
+        <item>(a+b)/a</item>
+        <item>Geometry</item>
+        <item>1.618</item>
+        <item>1.618</item>
+        <item>Persians</item>
+        <item>Architecture, Music and Design</item>
+        <item>Perfect square number</item>
+        <item>Golden mean or Golden section</item>
+    </string-array>
+
+    <string-array name="Answers">
+        <item>Phi</item>
+        <item>Rectangle Ratio</item>
+        <item>(a+b)/a</item>
+        <item>Geometry</item>
+        <item>1.618</item>
+        <item>0.764</item>
+        <item>Greeks</item>
+        <item>Architecture, Music and Design</item>
+        <item>Irrational number</item>
+        <item>Golden mean or Golden section</item>
+
+    </string-array>
+
+
+
+
+
+</resources>

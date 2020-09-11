@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.notifications.ResultActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:padding="16dp"
+        android:textColor="#000"
+        android:fontFamily="casual"
+        android:layout_margin="16dp"
+        android:id="@+id/grade"
+        android:text="Congratulations"/>
+
+    <TextView
+        android:layout_below="@+id/grade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:padding="16dp"
+        android:textColor="#000"
+        android:layout_margin="16dp"
+        android:fontFamily="casual"
+        android:id="@+id/outOf"
+        android:text="You scored 8 out of 9"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/retry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/finish"
+        android:layout_alignLeft="@+id/outOf"
+        android:fontFamily="casual"
+        android:backgroundTint="@color/color_topic"
+        android:layout_marginLeft="20dp"
+        android:text="@string/retry_quiz"
+        android:textColor="#fff"
+        android:padding="10dp"
+        android:background="@drawable/mainpage_button"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/finish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/outOf"
+        android:layout_marginBottom="76dp"
+        android:background="@drawable/mainpage_button"
+        android:padding="10dp"
+        android:fontFamily="casual"
+        android:layout_marginRight="20dp"
+        android:text="@string/exit"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+
+
+
+</RelativeLayout>

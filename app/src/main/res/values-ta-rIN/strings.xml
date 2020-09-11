@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">பொன் விகிதம்</string>
+    <string name="title_home">முகப்பு</string>
+    <string name="title_dashboard">பயன்பாடு</string>
+    <string name="title_notifications">மதிப்பீடு</string>
+    <string name="editText_username">பயனர்பெயர்</string>
+    <string name="editText_name">பெயர்</string>
+    <string name="editText_email">மின்னஞ்சல்</string>
+    <string name="editText_phone">தொலைபேசி எண்</string>
+    <string name="editText_password">கடவுச்சொல்</string>
+    <string name="button_login">உள்நுழை</string>
+    <string name="button_signup">பதிவுபெறு</string>
+    <string name="button_register">பதிவு செய்</string>
+    <string name="choice1">Choice1</string>
+    <string name="choice2">Choice2</string>
+    <string name="choice3">Choice3</string>
+    <string name="multiline_String">Multi Lines</string>
+    <string name="result1">சிறப்பு! நீங்கள் உண்மையில் பொன் விகிதத்தில் ஒரு நிபுணர்!</string>
+    <string name="result2">அருமை! உங்கள் சிறந்ததை வெளிபடுத்துநீர்கள்!</string>
+    <string name="result3">நன்று! அடுத்த முறை இன்னும் சிறப்பாய் அமைய என்னுடை வாழ்த்துகள்!</string>
+    <string name="result4">அடுத்த முறை அதிக மதிப்பெண்களைப் பெற முயற்சிக்கவும்!</string>
+    <string name="result5">இந்த விஷயத்திற்கு உங்கள் முயற்சி போதாது!</string>
+    <string name="lastScore">இறுதி மதிப்பெண்:</string>
+    <string name="best1">முன்னணி மதிப்பெண்1 : </string>1
+    <string name="best2">முன்னணி மதிப்பெண்2 :</string>
+    <string name="best3">முன்னணி மதிப்பெண்3 :</string>
+    <string name="retry_quiz">மீண்டும் முயற்சிக்க</string>
+    <string name="exit">வெளியேற</string>
+    <string name="home_heading1">பொன் விகிதம்</string>
+    <string name="home_heading2">அதனில் உள்ள யோசனை</string>
+    <string name="home_heading3">அதன் அழகு</string>
+    <string name="home_heading4">உதாரணம்</string>
+    <string name="home_heading5">உண்மையான மதிப்பு</string>
+    <string name="home_multiline1">பொன் விகிதம் (இதன் சின்னம் கிரேக்க எழுத்து \" phi (ப்ஹி) \" ) என்பது ஒரு சிறப்பு எண், இது 1.618 க்கு சமமாக இருக்கும்.
+        இது வடிவியல், கலை, கட்டிடக்கலை மற்றும் பிற பகுதிகளில் பல முறை தோன்றும்.</string>
+    <string name="home_multiline2">ஒரு வரியை இரண்டு பகுதிகளாகப் பிரிக்கும்போது பொன் விகிதத்தைக் காணலாம்:
+குறுகிய பகுதியால் வகுக்கப்பட்ட நீண்ட பகுதி, நீண்ட பகுதியால் வகுக்கப்பட்ட முழு நீளத்திற்கு சமம்.</string>
+    <string name="home_multiline3">
+இந்த செவ்வகம் பொன் விகிதத்தைப் பயன்படுத்தி உருவாக்கப்பட்டுள்ளது,ஒரு பொதுவான ஓவியத்திற்கு சட்டகமாகத் தெரிகிறது, அல்லவா?
+
+சில கலைஞர்கள் மற்றும் கட்டட வடிவமைப்பாளர்கள் பொன் விகிதத்தை மிகவும் அழகான வடிவத்தை உருவாக்குகிறது என்று நம்புகிறார்கள்.</string>
+    <string name="home_multiline4">பல கட்டிடங்கள் மற்றும் கலைப்படைப்புகள் பொன் விகிதத்தைக் கொண்டுள்ளன. எடுத்துக்காட்டாக கிரேக்கத்தில் உள்ள பார்த்தீனான் கட்டிடடம்,
+        ஆனால் அது அவ்வாறு வடிவமைக்கப்பட்டதா என்பது உண்மையில் தெரியவில்லை.</string>
+    <string name="home_multiline5">பொன் விகிதம் இதற்கு சமம்: 1.61803398874989484820 ...  இலக்கங்கள் எந்த வடிவமும் இல்லாமல் தொடர்கின்றன.
+         உண்மையில் பொன் விகிதம் ஒரு பகுத்தறிவற்ற எண் என்று அறியப்படுகிறது, மேலும் அதைப் பற்றி நான் பின்னர் கூறுவேன்.</string>
+
+    <string name="setttings">அமைப்புகள்</string>
+    <string name="next">அடுத்து</string>
+    <string name="Exit">வெளியேறு</string>
+    <string name="save">மொழியை மாற்றவும்</string>
+    <string name="language_text">பயன்பாட்டு மொழியைத் தேர்வுசெய்க :</string>
+    <string name="english">English</string>
+    <string name="tamil">தமிழ்</string>
+    <string name="hindi">हिन्दी</string>
+    <string name="correct">சரி!</string>
+    <string name="worng">தவறு!</string>
+    <string name="validate_details">சரியான விவரங்களை உள்ளிட்டு மீண்டும் முயற்சிக்கவும்!</string>
+    <string name="validate_email">தவறான மின்னஞ்சல்</string>
+    <string name="validate_password">தவறான கடவுச்சொல்</string>
+    <string name="application_heading">பொன் விகிதத்தின் பயன்பாடுகள்</string>
+    <string name="application_context">The Golden Ratio has been said to be the most appealing ratio, and is therefore used frequently.
+    It can be observed in nature, shells, faces, hurricanes, human bodies, animal bodies, DNA and so on.
+    It is applied in art and architecture, making logos, music,etc..</string>
+
+    <string-array name="questions">
+        <item>எந்த கிரேக்க சின்னம் பொன் விகிதத்தை குறிக்கிறது?</item>
+        <item>இந்த உருவத்தின் பெயர் என்ன?</item>
+        <item>கோல்டன் விகிதத்திற்கான அடிப்படை சூத்திரம் என்ன?</item>
+        <item>எந்த கணித பாடத்தில் கோல்டன் விகிதம் அடிக்கடி தோன்றும்?</item>
+        <item>பொன் விகிதத்தை குறிக்கும் எண் என்ன?</item>
+        <item>வெளிப்புற பென்டகனின் பக்கங்களும் (கீழே உள்ள பச்சை பென்டாகிராமில் ) 2 அலகுகள் நீளமாக இருந்தால்,
+            உள் பென்டகனின் (ஊதா) ஒவ்வொரு பக்கத்தின் நீளம் என்ன?</item>
+        <item>இந்த பொன் விகிதத்திற்கு யார் பெயரிட்டார்கள்?"</item>
+        <item>கோல்டன் விகிதத்தின் சில பயன்பாடுகள் யாவை?</item>
+        <item>பொன் விகிதம் என்பது ________.</item>
+        <item>பொன் விகிதம் _________ என்றும் அழைக்கப்படுகிறது.</item>
+    </string-array>
+
+
+
+
+    <string-array name="Choices1">
+        <item>ப்ஹி(Phi)</item>
+        <item>சதுர விகிதம்</item>
+        <item>(a+b)/b</item>
+        <item>கால்குலஸ்</item>
+        <item>0.618</item>
+        <item>0.382</item>
+        <item>ரோமர்</item>
+        <item>நடனம், இசை மற்றும் எழுத்து</item>
+        <item>பகுத்தறிவு எண்</item>
+        <item>வெள்ளி விகிதம்</item>
+    </string-array>
+
+    <string-array name="Choices2">
+        <item>பய்(Pi)</item>
+        <item>செவ்வக விகிதம்</item>
+        <item>(a-b)/a</item>
+        <item>முக்கோணவியல்</item>
+        <item>2.624</item>
+        <item>0.764</item>
+        <item>கிரேக்கர்கள்</item>
+        <item>ஆங்கிலம் மற்றும் அரசியல் நீதி</item>
+        <item>பகுத்தறிவற்ற எண்</item>
+        <item>விகிதங்களின் ராஜா</item>
+    </string-array>
+
+    <string-array name="Choices3">
+        <item>சய்(Psi)</item>
+        <item>வழக்கமான விகிதம்</item>
+        <item>(a+b)/a</item>
+        <item>வடிவியல்</item>
+        <item>1.618</item>
+        <item>1.618</item>
+        <item>பெர்சியர்கள்</item>
+        <item>கட்டிடக்கலை, இசை மற்றும் வடிவமைப்பு</item>
+        <item>சரியான சதுர எண்</item>
+        <item>கோல்டன் சராசரி அல்லது கோல்டன் பிரிவு</item>
+    </string-array>
+
+    <string-array name="Answers">
+        <item>ப்ஹி(Phi)</item>
+        <item>செவ்வக விகிதம்</item>
+        <item>(a+b)/a</item>
+        <item>வடிவியல்</item>
+        <item>1.618</item>
+        <item>0.764</item>
+        <item>கிரேக்கர்கள்</item>
+        <item>கட்டிடக்கலை, இசை மற்றும் வடிவமைப்பு</item>
+        <item>பகுத்தறிவற்ற எண்</item>
+        <item>கோல்டன் சராசரி அல்லது கோல்டன் பிரிவு</item>
+
+    </string-array>
+
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:elevation="30dp"
+    tools:context=".LoginActivity">
+
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginTop="300dp"
+        android:hint="@string/editText_username"
+        android:textColorHint="@color/color_textView"
+        android:textColor="@color/button_text"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawableTint="@color/colorAccent"
+        android:theme="@style/MyEditTextTheme"
+        android:singleLine="true" />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/username"
+        android:hint="@string/editText_password"
+        android:textColorHint="@color/color_textView"
+        android:textColor="@color/button_text"
+        android:drawableLeft="@drawable/ic_baseline_lock_24"
+        android:drawableTint="@color/colorAccent"
+        android:theme="@style/MyEditTextTheme"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:text="@string/button_login"
+        android:background="@drawable/button_size"
+        android:layout_centerHorizontal="true"
+        style="@android:style/Widget.Button.Toggle"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/button_text"
+        android:elevation="30dp"
+
+        />
+
+
+
+
+
+</RelativeLayout>
