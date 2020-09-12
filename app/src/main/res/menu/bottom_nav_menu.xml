@@ -13,11 +13,19 @@
 
     <item
         android:id="@+id/navigation_notifications"
-        android:icon="@drawable/ic_baseline_insert_chart_24"
+        android:icon="@drawable/ic_baseline_assignment_24"
         android:title="@string/title_notifications" />
+
+    <item
+        android:id="@+id/navigation_scoreboard"
+        android:icon="@drawable/ic_baseline_equalizer_24"
+        android:title="@string/scoreboard" />
+
     <item
         android:id="@+id/navigation_settings"
-        android:icon="@drawable/ic_baseline_settings_24"
-        android:title="@string/setttings" />
+        android:icon="@drawable/ic_baseline_language_24"
+        android:title="@string/language" />
+
+
 
 </menu>

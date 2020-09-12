@@ -2,6 +2,7 @@ package com.sabari.bottomnav;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -23,6 +24,7 @@ public class StartupPage extends AppCompatActivity {
 
         btLogin = (Button)findViewById(R.id.btLogin);
         btRegister = (Button)findViewById(R.id.btRegister);
+        image = (ImageView) findViewById(R.id.imageView1234);
 
         btLogin.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,5 +42,12 @@ public class StartupPage extends AppCompatActivity {
                 startActivity(i);
             }
         });
+    }
+
+    @Override
+    protected void attachBaseContext(Context newBase) {
+        LocaleHelper.setLocale(newBase, SharedPreferencesUtil.getLanguage(newBase));
+        super.attachBaseContext(newBase);
+
     }
 }

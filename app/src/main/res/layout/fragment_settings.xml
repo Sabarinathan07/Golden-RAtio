@@ -12,10 +12,10 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:id="@+id/radioGroup">
+        android:id="@+id/radio">
 
         <RadioButton
-            android:id="@+id/radio_one"
+            android:id="@+id/radio1"
             android:layout_width="300dp"
             android:layout_height="match_parent"
             android:baselineAligned="false"
@@ -28,7 +28,7 @@
             />
 
         <RadioButton
-            android:id="@+id/radio_two"
+            android:id="@+id/radio2"
             android:layout_width="300dp"
             android:layout_height="match_parent"
             android:padding="20dp"
@@ -38,7 +38,7 @@
             />
 
         <RadioButton
-            android:id="@+id/radio_three"
+            android:id="@+id/radio3"
             android:layout_width="300dp"
             android:layout_height="match_parent"
             android:padding="20dp"
@@ -53,7 +53,7 @@
         android:id="@+id/textView"
         android:padding="30dp"
         android:layout_centerHorizontal="true"
-        android:layout_above="@+id/radioGroup"
+        android:layout_above="@+id/radio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/language_text"
@@ -64,7 +64,7 @@
         android:id="@+id/button"
         android:layout_width="300dp"
         android:layout_height="50dp"
-        android:layout_below="@+id/radioGroup"
+        android:layout_below="@+id/radio"
 
 
         android:layout_marginTop="70dp"

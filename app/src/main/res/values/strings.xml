@@ -58,6 +58,15 @@ the long part divided by the short part is also equal to the whole length divide
     It can be observed in nature, shells, faces, hurricanes, human bodies, animal bodies, DNA and so on.
     It is applied in art and architecture, making logos, music,etc..</string>
 
+    <string name="wait">Please Wait....</string>
+    <string name="regiter_user">Registering User...</string>
+    <string name="scoreboard">Scoreboard</string>
+    <string name="language">Language</string>
+    <string name="toast_try_again">Some error occured / Please try again with a different name</string>
+    <string name="check_connection">Please check your Internet connection and Try again! </string>
+    <string name="invalid_login">Invalid username or password!</string>
+    <string name="valid_login">Login successful!!</string>
+
     <string-array name="questions">
         <item>What greek symbol represents the Golden Ratio?</item>
         <item>What is the name of this figure?</item>

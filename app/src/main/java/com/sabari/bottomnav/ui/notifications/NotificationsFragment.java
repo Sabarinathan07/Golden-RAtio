@@ -74,7 +74,7 @@ public class NotificationsFragment extends Fragment {
                     if(strSelected.equals(answer)){
 
 
-                        Toast.makeText(getActivity(),getString(R.string.correct),Toast.LENGTH_SHORT).show();
+                        //Toast.makeText(getActivity(),getString(R.string.correct),Toast.LENGTH_SHORT).show();
                         score=score+1;
 
 
@@ -89,7 +89,7 @@ public class NotificationsFragment extends Fragment {
                             updateQuestion();
                         }
                     }else{
-                        Toast.makeText(getActivity(),getString(R.string.worng),Toast.LENGTH_SHORT).show();
+                        //Toast.makeText(getActivity(),getString(R.string.worng),Toast.LENGTH_SHORT).show();
                         if(qnNumber==array.length){
                             Intent i = new Intent(getActivity(),ResultActivity.class);
                             Bundle bundle = new Bundle();

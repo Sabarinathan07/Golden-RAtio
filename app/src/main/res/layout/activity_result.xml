@@ -33,11 +33,12 @@
 
     <Button
         android:id="@+id/retry"
-        android:layout_width="wrap_content"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/finish"
         android:layout_alignLeft="@+id/outOf"
         android:fontFamily="casual"
+
         android:backgroundTint="@color/color_topic"
         android:layout_marginLeft="20dp"
         android:text="@string/retry_quiz"
@@ -48,7 +49,7 @@
 
     <Button
         android:id="@+id/finish"
-        android:layout_width="wrap_content"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignRight="@+id/outOf"

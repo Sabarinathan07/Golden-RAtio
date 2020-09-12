@@ -23,6 +23,13 @@
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
 
+
+    <fragment
+        android:id="@+id/navigation_scoreboard"
+        android:name="com.sabari.bottomnav.ui.scoreboard.ScoreboardFragment"
+        android:label="@string/scoreboard"
+        tools:layout="@layout/fragment_scoreboard"/>
+
     <fragment
         android:id="@+id/navigation_settings"
         android:name="com.sabari.bottomnav.ui.settings.SettingsFragment"

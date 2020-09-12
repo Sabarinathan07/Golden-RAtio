@@ -2,6 +2,7 @@ package com.sabari.bottomnav.ui.notifications;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -9,13 +10,30 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.android.volley.AuthFailureError;
+import com.android.volley.Request;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.sabari.bottomnav.Constants;
 import com.sabari.bottomnav.MainActivity;
 import com.sabari.bottomnav.R;
+import com.sabari.bottomnav.RequestHandler;
+import com.sabari.bottomnav.SharePrefManager;
 import com.sabari.bottomnav.StartupPage;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class ResultActivity extends AppCompatActivity {
     TextView grade,finalScore;
     Button retry,finish;
+    ProgressDialog progressDialog;
+
+    String name,sScore;
 
     int lastScore;
     int best1,best2,best3;
@@ -31,11 +49,15 @@ public class ResultActivity extends AppCompatActivity {
         retry = findViewById(R.id.retry);
         finish = findViewById(R.id.finish);
 
+        progressDialog = new ProgressDialog(this);
+
         String finalScr , bes1,bes2,bes3,lastScr;
         bes1 = getString(R.string.best1);
         bes2 = getString(R.string.best2);
         bes3 = getString(R.string.best3);
         lastScr = getString(R.string.lastScore);
+
+        name = SharePrefManager.getInstance(this).getName();
 
 
 
@@ -47,6 +69,10 @@ public class ResultActivity extends AppCompatActivity {
 
         Bundle bundle = getIntent().getExtras();
         int score = bundle.getInt("finalScore");
+
+        sScore = Integer.toString(score);
+
+        updateResult(name,sScore);
 
 
         SharedPreferences preferences = getSharedPreferences("PREFS",0);
@@ -124,6 +150,74 @@ public class ResultActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+
+    }
+
+
+    private void updateResult(String name,String score ) {
+
+
+        final String sName = name;
+        final String sScore = score;
+
+
+
+
+
+        progressDialog.setMessage("Updating Result...");
+        progressDialog.show();
+
+        StringRequest stringrequest = new StringRequest(Request.Method.POST,
+                Constants.URL_UPDATE_SCORE,
+                new Response.Listener<String>(){
+
+
+
+
+                    @Override
+                    public void onResponse(String Response) {
+                        progressDialog.dismiss();
+                        try {
+
+                            JSONObject jsonobject = new JSONObject(Response);
+
+
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+
+
+                    }
+                },
+                new Response.ErrorListener() {
+
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+                        progressDialog.hide();
+
+
+                    }
+
+
+                }){
+
+            @Override
+            protected Map<String, String> getParams() throws AuthFailureError {
+                Map<String, String> params = new HashMap<String, String>();
+
+                params.put("username", sName);
+                params.put("score",sScore );
+
+                return params;
+            }
+
+
+
+
+        };
+
+        RequestHandler.getInstance(this).addToRequestQueue(stringrequest);
 
 
     }

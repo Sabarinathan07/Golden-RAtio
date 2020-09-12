@@ -9,8 +9,10 @@ public class LocaleHelper {
         Locale localeObject = new Locale(locale);
         Locale.setDefault(localeObject);
         Configuration config = new Configuration(context.getResources().getConfiguration());
-        config.locale = localeObject;
+        //config.locale = localeObject;
+        config.setLocale(localeObject);
         context.getResources().updateConfiguration(config, context.getResources().getDisplayMetrics());
+        context.createConfigurationContext(config);
 
 
     }

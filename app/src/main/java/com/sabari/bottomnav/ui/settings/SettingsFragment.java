@@ -40,7 +40,7 @@ public class SettingsFragment extends Fragment {
         //loadLoacle();
         View v = inflater.inflate(R.layout.fragment_settings, container, false);
 
-        buttonGroup = v.findViewById(R.id.radioGroup);
+        buttonGroup = v.findViewById(R.id.radio);
         textView = v.findViewById(R.id.textView);
         save = v.findViewById(R.id.button);
 
@@ -51,15 +51,15 @@ public class SettingsFragment extends Fragment {
                 radioButton = buttonGroup.findViewById(radioId);
 
                 switch(radioId){
-                    case R.id.radio_one:
+                    case R.id.radio1:
                         setLocale("ta");
                         //recreate();
                         break;
-                    case R.id.radio_two:
+                    case R.id.radio2:
                         setLocale("en");
                         //recreate();
                         break;
-                    case R.id.radio_three:
+                    case R.id.radio3:
                         setLocale("hi");
                         //recreate();
                         break;
@@ -87,8 +87,8 @@ public class SettingsFragment extends Fragment {
         SharedPreferences.Editor editor = getActivity().getSharedPreferences("settings",MODE_PRIVATE).edit();
         editor.putString("lang",lang);
         editor.apply();
-        requireActivity().recreate();
-        //startActivity(new Intent(getContext(), MainActivity.class));
+        requireActivity().finish();
+        startActivity(new Intent(getContext(), MainActivity.class));
 
     }
 

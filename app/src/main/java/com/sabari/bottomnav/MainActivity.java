@@ -1,6 +1,8 @@
 package com.sabari.bottomnav;
 
 import android.content.Context;
+import android.content.res.Configuration;
+import android.os.Build;
 import android.os.Bundle;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -12,6 +14,8 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
+import java.util.Locale;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -20,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
 
+        LocaleHelper.setLocale(this,SharedPreferencesUtil.getLanguage(getApplicationContext()));
 
         setContentView(R.layout.activity_main);
         BottomNavigationView navView = findViewById(R.id.nav_view);
@@ -33,10 +38,23 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupWithNavController(navView, navController);
     }
 
-    @Override
+/*    @Override
     protected void attachBaseContext(Context newBase) {
         LocaleHelper.setLocale(newBase, SharedPreferencesUtil.getLanguage(newBase));
         super.attachBaseContext(newBase);
 
     }
+    */
+@Override
+protected void attachBaseContext(Context newBase) {
+    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+        Configuration config = newBase.getResources().getConfiguration();
+        //Update your config with the Locale i. e. saved in SharedPreferences
+
+        String language = SharedPreferencesUtil.getLanguage(newBase);
+        config.setLocale(new Locale(language));
+        newBase = newBase.createConfigurationContext(config);
+    }
+    super.attachBaseContext(newBase);
+}
 }

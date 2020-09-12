@@ -9,6 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.sabari.bottomnav.R;
+import com.sabari.bottomnav.ui.scoreboard.ScorePage;
 
 import java.util.ArrayList;
 
@@ -19,7 +20,7 @@ public class Adapter extends BaseAdapter {
     TextView heading,multilineText;
     ImageView imageView;
 
-    public Adapter(Context context,ArrayList<HomePage> list){
+    public Adapter(Context context, ArrayList<HomePage> list){
         this.list = list;
         layoutInflater = LayoutInflater.from(context);
     }
