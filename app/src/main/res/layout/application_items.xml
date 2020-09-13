@@ -8,7 +8,7 @@
         android:id="@+id/heading"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
+        android:textSize="17sp"
         android:textColor="@color/colorPrimary"
         android:ems="30"
         android:inputType="textPersonName"
