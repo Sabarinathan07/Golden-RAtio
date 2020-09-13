@@ -72,6 +72,6 @@
         android:background="@drawable/button_size"
 
         android:text="@string/save"
-        android:textColor="@color/colorPrimaryDark"/>
+        android:textColor="@color/button_text"/>
 
 </RelativeLayout>

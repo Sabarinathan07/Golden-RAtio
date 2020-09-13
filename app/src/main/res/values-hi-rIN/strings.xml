@@ -25,13 +25,14 @@
     <string name="best1">लीड स्कोर 1 : </string>
     <string name="best2">लीड स्कोर 2 : </string>
     <string name="best3">लीड स्कोर 3 : </string>
-    <string name="retry_quiz">पुन: प्रयासं</string>
+    <string name="retry_quiz">होमपेज पर वापस आएं</string>
     <string name="exit">बाहर जाएं</string>
     <string name="home_heading1">सुनहरा अनुपात</string>
     <string name="home_heading2">इसके पीछे आइडिया है</string>
     <string name="home_heading3">सुंदरता</string>
     <string name="home_heading4">उदाहरण</string>
     <string name="home_heading5">वास्तविक मूल्य</string>
+    <string name="password_condition">* पासवर्ड में 8 अक्षर होने चाहिए *</string>
     <string name="home_multiline1">स्वर्ण अनुपात (प्रतीक यूनानी अक्षर है \"phi\" ) एक विशेष संख्या है जो लगभग 1.618 के बराबर है।
        यह ज्यामिति, कला, वास्तुकला और अन्य क्षेत्रों में कई बार दिखाई देता है।</string>
     <string name="home_multiline2">जब हम एक रेखा को दो भागों में विभाजित करते हैं तो हम सुनहरा अनुपात पाते हैं:
@@ -42,6 +43,16 @@
         लेकिन यह वास्तव में ज्ञात नहीं है कि क्या यह उस तरह से डिज़ाइन किया गया था</string>
     <string name="home_multiline5">स्वर्ण अनुपात समान है: 1.61803398874989484820 ... (आदि) अंक केवल पैटर्न के साथ चलते रहते हैं।
          वास्तव में गोल्डन अनुपात एक अपरिमेय संख्या के रूप में जाना जाता है, और मैं आपको इसके बारे में बाद में बताऊंगा</string>
+
+
+    <string name="wait">कृपया प्रतीक्षा करें....</string>
+    <string name="regiter_user">पंजीकरण जोड़ें ...</string>
+    <string name="scoreboard">स्कोरबोर्ड</string>
+    <string name="language">भाषा सेटिंग</string>
+    <string name="toast_try_again">कुछ त्रुटि हुई / कृपया एक अलग नाम के साथ फिर से प्रयास करें</string>
+    <string name="check_connection">अपने इंटरनेट कनेक्शन की जाँच करें और पुन: प्रयास करें!</string>
+    <string name="invalid_login">अमान्य उपयोगकर्ता नाम या पासवर्ड!</string>
+    <string name="valid_login">सफलतापूर्ण प्रवेश!!</string>
 
     <string name="next">आगे</string>
     <string name="Exit">बाहर जाएं</string>
@@ -60,6 +71,39 @@
     <string name="application_context">The Golden Ratio has been said to be the most appealing ratio, and is therefore used frequently.
     It can be observed in nature, shells, faces, hurricanes, human bodies, animal bodies, DNA and so on.
     It is applied in art and architecture, making logos, music,etc..</string>
+
+
+    <string name="application_heading1">गोल्डन अनुपात के अनुप्रयोग</string>
+    <string name="application_heading2">सर्पिल आकाशगंगाएँ</string>
+    <string name="application_heading3">तूफान</string>
+    <string name="application_heading4">फल और सबजीया</string>
+    <string name="application_heading5">डीएनए</string>
+    <string name="application_heading6">शंख</string>
+    <string name="application_heading7">मानव शरीर</string>
+    <string name="application_heading8">फूलों की पंखुड़ियों</string>
+
+
+    <string name="application_multiline1">गोल्डन अनुपात को सबसे आकर्षक अनुपात कहा गया है, और इसलिए इसका उपयोग अक्सर किया जाता है।
+     यह प्रकृति, गोले, चेहरे, तूफान, मानव शरीर, पशु निकायों, डीएनए और इतने पर मनाया जा सकता है।
+     यह कला और वास्तुकला में लागू किया जाता है, लोगो, संगीत, आदि बना रहा है।</string>
+    <string name="application_multiline2">हमारी अपनी आकाशगंगा own मिल्की वे स्वर्णिम अनुपात का प्रतिनिधित्व कर रही है।</string>
+    <string name="application_multiline3">तूफान में हवा और हवा की गति भी सुनहरा अनुपात प्रकट करते हुए, फाइबोनैचि सर्पिल का पालन करती है।</string>
+    <string name="application_multiline4">फ्रैक्टल जैसे फलों और सब्जियों के मामले में एक ही पैटर्न मनाया जाता है।
+         सबसे आम उदाहरण अनानास, लाल गोभी, आटिचोक और रोमानियाई फूलगोभी हैं।</string>
+    <string name="application_multiline5">एक डीएनए अणु लंबाई में 34Å और चौड़ाई में 21 is है। अनुपात स्वर्णिम अनुपात के लगभग बराबर है। पेचदार डीएनए अणु के दो खांचे के अनुपात के लिए भी यही सही है,
+         यानी, प्रमुख (21Å) और मामूली (13 gro) नाली।</string>
+    <string name="application_multiline6">घोंघे, सीशेल और इस तरह के अन्य उदाहरणों के मामले में बाहरी कैल्केरियस शेल भी फाइबोनैचि सर्पिल का प्रदर्शन करते हैं।
+         घोंघा और नॉटिलस के गोले स्पष्ट उदाहरण हैं, जहां सर्पिल स्पष्ट रूप से देखने योग्य है।</string>
+    <string name="application_multiline7">हाँ, मानव शरीर में फी मौजूद है। जैसे कि,
+\n(I) मानव शरीर की कुल लंबाई: नाभि से शरीर का निचला भाग = 1.6180…
+\n(II) कंधे से घुटने तक: घुटने से पैर तक = 1.6180…
+\n(III) मानव मछलियाँ: हाथ = १.६१ )०…
+\n(IV) मानव चेहरे की लंबाई: चौड़ाई = 1.6180…
+\n(V) मानव उंगली कोहनी की लंबाई तक: कोहनी = 1.6180…
+\n(VI) होंठों की लंबाई: नाक की चौड़ाई = 1.6180…
+\n(VII) दो आंखों के बीच की दूरी: बालों से रेटिना = 1.6180 की दूरी ...</string>
+    <string name="application_multiline8">इन फूलों में पंखुड़ियों की व्यवस्था के संदर्भ में सुनहरा अनुपात देखा जाता है।
+         सूरज की रोशनी के संपर्क में आने के लिए सभी पंखुड़ियों में लगभग 1.618034 ° का घुमाव होता है। </string>
 
     <string-array name="questions">
         <item>क्या ग्रीक प्रतीक स्वर्णिम अनुपात का प्रतिनिधित्व करता है?</item>
@@ -88,7 +132,7 @@
         <item>रोमनों</item>
         <item>नृत्य, संगीत और लेखन</item>
         <item>परिमेय संख्या</item>
-        <item>Silver Ratio</item>
+        <item>रजत अनुपात</item>
     </string-array>
 
     <string-array name="Choices2">

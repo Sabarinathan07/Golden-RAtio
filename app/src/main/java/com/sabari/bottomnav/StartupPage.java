@@ -26,6 +26,9 @@ public class StartupPage extends AppCompatActivity {
         btRegister = (Button)findViewById(R.id.btRegister);
         image = (ImageView) findViewById(R.id.imageView1234);
 
+
+
+
         btLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

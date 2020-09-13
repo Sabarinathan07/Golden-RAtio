@@ -24,7 +24,7 @@
     <string name="best1">BEST1 : </string>
     <string name="best2">BEST2 : </string>
     <string name="best3">BEST3 : </string>
-    <string name="retry_quiz">Retry Quiz</string>
+    <string name="retry_quiz">Back to Homepage</string>
     <string name="exit">Exit</string>
     <string name="home_heading1">Golden Ratio</string>
     <string name="home_heading2">The Idea Behind It</string>
@@ -40,6 +40,44 @@ the long part divided by the short part is also equal to the whole length divide
     <string name="home_multiline4">Many buildings and artworks have the Golden Ratio in them, such as the Parthenon in Greece,
         but it is not really known if it was designed that way.</string>
     <string name="home_multiline5">The Golden Ratio is equal to:  1.61803398874989484820... (etc.) The digits just keep on going, with no pattern. In fact the Golden Ratio is known to be an Irrational Number, and I will tell you more about it later.</string>
+
+   <string name="application_heading1">Applications of Golden Ratio</string>
+    <string name="application_heading2">Spiral Galaxies</string>
+    <string name="application_heading3">Hurricanes</string>
+    <string name="application_heading8">Flower petals</string>
+    <string name="application_heading4">Fruits and Vegetables</string>
+    <string name="application_heading5">DNA</string>
+    <string name="application_heading6">Shells</string>
+    <string name="application_heading7">HumanBody</string>
+
+    <string name="password_condition">*password must contain 8 characters*</string>
+
+
+    <string name="application_multiline1">The Golden Ratio has been said to be the most appealing ratio, and is therefore used frequently.
+    It can be observed in nature, shells, faces, hurricanes, human bodies, animal bodies, DNA and so on.
+    It is applied in art and architecture, making logos, music,etc..</string>
+    <string name="application_multiline2">Our own galaxy―the Milky Way is representing the Golden Ratio .</string>
+    <string name="application_multiline3">The movement of air and wind in hurricanes also follows the Fibonaccian spiral, revealing the golden ratio.</string>
+    <string name="application_multiline8">The golden ratio is seen in these flowers in terms of petal arrangement.
+        All the petals exhibit a twisting of about 1.618034°, in order to optimize exposure to sunlight.</string>
+    <string name="application_multiline4">The same pattern is observed in the case of fractal-like fruits and vegetables.
+        The most common examples are pineapple, red cabbage, artichokes, and Romanian cauliflower.</string>
+    <string name="application_multiline5">A DNA molecule is 34Å in length and 21Å in width. The ratio is approximately equal to the golden ratio. The same is true for the ratio of the two grooves of the helical DNA molecule,
+        i.e., the major (21Å) and the minor (13Å) groove.</string>
+    <string name="application_multiline6">The outer calcareous shell in the case of snails, seashells, and other such examples, also exhibit the Fibonacci spiral.
+        Snail and nautilus shells are obvious examples, where the spiral is plainly observable.</string>
+    <string name="application_multiline7">Yes, phi is present in human body. Such as,
+\n\n(I) Total length of human body : Lower part of the body from navel = 1.6180…
+\n(II)Shoulder to knee : Knee to toe = 1.6180…
+\n(III)Human biceps : Hand =  1.6180…
+\n(IV)Human face length : width = 1.6180…
+\n(V)Human finger to elbow length : Wrist to elbow = 1.6180…
+\n(VI)Length of lips : width of nose = 1.6180…
+\n(VII)Distance between two sides of eyes : distance from hair to retina = 1.6180…</string>
+
+
+
+
     <string name="next">Next</string>
     <string name="Exit">Exit</string>
     <string name="save">Save</string>

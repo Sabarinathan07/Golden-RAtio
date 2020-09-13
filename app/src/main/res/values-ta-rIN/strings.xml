@@ -25,7 +25,7 @@
     <string name="best1">முன்னணி மதிப்பெண்1 : </string>1
     <string name="best2">முன்னணி மதிப்பெண்2 :</string>
     <string name="best3">முன்னணி மதிப்பெண்3 :</string>
-    <string name="retry_quiz">மீண்டும் முயற்சிக்க</string>
+    <string name="retry_quiz">முகப்பு பக்கத்திற்குத் திரும்ப</string>
     <string name="exit">வெளியேற</string>
     <string name="home_heading1">பொன் விகிதம்</string>
     <string name="home_heading2">அதனின் யோசனை</string>
@@ -45,6 +45,15 @@
     <string name="home_multiline5">பொன் விகிதம் இதற்கு சமம்: 1.61803398874989484820 ...  இலக்கங்கள் எந்த வடிவமும் இல்லாமல் தொடர்கின்றன.
          உண்மையில் பொன் விகிதம் ஒரு பகுத்தறிவற்ற எண் என்று அறியப்படுகிறது, மேலும் அதைப் பற்றி நான் பின்னர் கூறுவேன்.</string>
 
+    <string name="wait">தயவுசெய்து காத்திருங்கள் ....</string>
+    <string name="regiter_user">பயனரைப் பதிவுசெய்கிறது ...</string>
+    <string name="scoreboard">மதிப்பெண் பலகை</string>
+    <string name="language">மொழி</string>
+    <string name="toast_try_again">சில பிழை ஏற்பட்டது / தயவுசெய்து வேறு பெயருடன் மீண்டும் முயற்சிக்கவும்</string>
+    <string name="check_connection">உங்கள் இணைய இணைப்பைச் சரிபார்த்து மீண்டும் முயற்சிக்கவும்! </string>
+    <string name="invalid_login">தவறான பயனர்பெயர் அல்லது கடவுச்சொல்!</string>
+    <string name="valid_login">உள்நுழைவு வெற்றிகரமானது !!</string>
+
     <string name="setttings">அமைப்புகள்</string>
     <string name="next">அடுத்து</string>
     <string name="Exit">வெளியேறு</string>
@@ -62,6 +71,40 @@
     <string name="application_context">The Golden Ratio has been said to be the most appealing ratio, and is therefore used frequently.
     It can be observed in nature, shells, faces, hurricanes, human bodies, animal bodies, DNA and so on.
     It is applied in art and architecture, making logos, music,etc..</string>
+
+
+    <string name="application_heading1">கோல்டன் விகிதத்தின் பயன்பாடுகள்</string>
+    <string name="application_heading2">சுழல் விண்மீன் திரள்கள்</string>
+    <string name="application_heading3">சூறாவளி</string>
+    <string name="application_heading4">பழங்கள் மற்றும் காய்கறிகள்</string>
+    <string name="application_heading5">டி.என்.ஏ</string>
+    <string name="application_heading6">கிளிஞ்சல் சிப்பி</string>
+    <string name="application_heading7">மனித உடல்</string>
+    <string name="application_heading8">மலர் இதழ்கள்</string>
+    <string name="password_condition">* கடவுச்சொல்லில் 8 எழுத்துக்கள் இருக்க வேண்டும் *</string>
+
+
+    <string name="application_multiline1">கோல்டன் விகிதம் மிகவும் ஈர்க்கக்கூடிய விகிதம் என்று கூறப்படுகிறது, எனவே இது அடிக்கடி பயன்படுத்தப்படுகிறது.
+     இயற்கையில், குண்டுகள், முகங்கள், சூறாவளி, மனித உடல்கள், விலங்கு உடல்கள், டி.என்.ஏ மற்றும் பலவற்றில் இதைக் காணலாம்.
+     இது கலை மற்றும் கட்டிடக்கலைகளில் பயன்படுத்தப்படுகிறது, லோகோக்கள், இசை போன்றவற்றை உருவாக்குகிறது.</string>
+    <string name="application_multiline2">நமது சொந்த விண்மீன்-பால்வீதி பொன் விகிதத்தைக் குறிக்கிறது.</string>
+    <string name="application_multiline3">சூறாவளிகளில் காற்று மற்றும் காற்றின் இயக்கமும் ஃபைபோனாசியன் சுழலைப் பின்பற்றுகிறது, இது தங்க விகிதத்தை வெளிப்படுத்துகிறது.</string>
+    <string name="application_multiline4">ஃப்ராக்டல் போன்ற பழங்கள் மற்றும் காய்கறிகளின் விஷயத்திலும் இதே முறை காணப்படுகிறது.
+         அன்னாசிப்பழம், சிவப்பு முட்டைக்கோஸ், கூனைப்பூக்கள் மற்றும் ருமேனிய காலிஃபிளவர் ஆகியவை மிகவும் பொதுவான எடுத்துக்காட்டுகள்.</string>
+    <string name="application_multiline5">ஒரு டி.என்.ஏ மூலக்கூறு நீளம் 34Å மற்றும் அகலம் 21Å ஆகும். இந்த விகிதம் தங்க விகிதத்திற்கு தோராயமாக சமம். ஹெலிகல் டி.என்.ஏ மூலக்கூறின் இரண்டு பள்ளங்களின் விகிதத்திற்கும் இது பொருந்தும்,
+         அதாவது, முக்கிய (21Å) மற்றும் சிறிய (13Å) பள்ளம்.</string>
+    <string name="application_multiline6">நத்தைகள், சீஷெல்ஸ் மற்றும் பிற உதாரணங்களின் விஷயத்தில் வெளிப்புற சுண்ணாம்பு ஷெல், ஃபைபோனச்சி சுருளை வெளிப்படுத்துகிறது.
+         நத்தை மற்றும் நாட்டிலஸ் குண்டுகள் வெளிப்படையான எடுத்துக்காட்டுகள், அங்கு சுழல் தெளிவாகக் காணப்படுகிறது.</string>
+    <string name="application_multiline7">ஆம், மனித உடலில் பை உள்ளது. போன்ற,
+\n(I) மனித உடலின் மொத்த நீளம்: தொப்புளிலிருந்து உடலின் கீழ் பகுதி = 1.6180…
+\n(II) தோள்பட்டை முதல் முழங்கால் வரை: முழங்கால் முதல் கால் வரை = 1.6180…
+\n(III) மனித கயிறுகள்: கை = 1.6180…
+\n(IV) மனித முக நீளம்: அகலம் = 1.6180…
+\n(வி) முழங்கை நீளத்திற்கு மனித விரல்: முழங்கைக்கு முழங்கை = 1.6180…
+\n(VI) உதடுகளின் நீளம்: மூக்கின் அகலம் = 1.6180…
+\n(VII) கண்களின் இரு பக்கங்களுக்கிடையேயான தூரம்: முடியிலிருந்து விழித்திரை வரை தூரம் = 1.6180…</string>
+    <string name="application_multiline8">இதழ்களின் ஏற்பாட்டின் அடிப்படையில் இந்த மலர்களில் தங்க விகிதம் காணப்படுகிறது.
+         அனைத்து இதழ்களும் சூரிய ஒளியின் வெளிப்பாட்டை மேம்படுத்துவதற்காக, சுமார் 1.618034 of ஒரு திருப்பத்தை வெளிப்படுத்துகின்றன.</string>
 
     <string-array name="questions">
         <item>எந்த கிரேக்க சின்னம் பொன் விகிதத்தை குறிக்கிறது?</item>
@@ -101,7 +144,7 @@
         <item>2.624</item>
         <item>0.764</item>
         <item>கிரேக்கர்கள்</item>
-        <item>ஆங்கிலம் மற்றும் அரசியல் நீதி</item>
+        <item>ஆங்கிலம், அரசியல் நீதி</item>
         <item>பகுத்தறிவற்ற எண்</item>
         <item>விகிதங்களின் ராஜா</item>
     </string-array>

@@ -9,7 +9,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.sabari.bottomnav.R;
-import com.sabari.bottomnav.ui.home.HomePage;
+import com.sabari.bottomnav.ui.home.HomeFragment;
+
 
 import java.util.ArrayList;
 
@@ -51,6 +52,8 @@ public class Adapter extends BaseAdapter {
 
         heading.setText(obj.getHeading());
         multilineText.setText(obj.getMultiline());
+
+        imageView.setImageResource(DashboardFragment.images[i]);
 
         return v;
     }

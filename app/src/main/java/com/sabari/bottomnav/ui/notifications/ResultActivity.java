@@ -47,7 +47,7 @@ public class ResultActivity extends AppCompatActivity {
         grade = findViewById(R.id.grade);
         finalScore = findViewById(R.id.outOf);
         retry = findViewById(R.id.retry);
-        finish = findViewById(R.id.finish);
+       // finish = findViewById(R.id.finish);
 
         progressDialog = new ProgressDialog(this);
 
@@ -143,13 +143,13 @@ public class ResultActivity extends AppCompatActivity {
             }
         });
 
-        finish.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(getBaseContext(), StartupPage.class);
-                startActivity(i);
-            }
-        });
+//        finish.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent i = new Intent(getBaseContext(), StartupPage.class);
+//                startActivity(i);
+//            }
+//        });
 
 
     }

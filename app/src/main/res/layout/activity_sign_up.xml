@@ -93,6 +93,18 @@
         android:drawableTint="@color/colorAccent"
         android:theme="@style/MyEditTextTheme"
         android:singleLine="true" />
+    <TextView
+        android:id="@+id/rUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:text="@string/password_condition"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/color_textView"
+
+        />
 
 
     <Button
