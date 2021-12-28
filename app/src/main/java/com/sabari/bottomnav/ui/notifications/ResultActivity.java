@@ -119,7 +119,7 @@ public class ResultActivity extends AppCompatActivity {
         }
 
 
-        finalScr = lastScr + lastScore + "\n"+ bes1 + best1 +"\n"+ bes1 +best2 +"\n"+ bes1 + best3 ;
+        finalScr = lastScr + lastScore + "\n"+ bes1 + best1 +"\n"+ bes2 +best2 +"\n"+ bes3 + best3 ;
 
         finalScore.setText(finalScr);
 

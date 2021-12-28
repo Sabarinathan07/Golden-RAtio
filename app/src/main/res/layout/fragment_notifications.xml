@@ -86,11 +86,11 @@
     <TextView
         android:id="@+id/question"
         android:layout_width="340dp"
-        android:layout_height="85dp"
+        android:layout_height="100dp"
         android:text="Questions"
         android:layout_marginTop="15dp"
         android:layout_centerHorizontal="true"
-        android:textSize="18sp"
+        android:textSize="16sp"
         />
 
 
